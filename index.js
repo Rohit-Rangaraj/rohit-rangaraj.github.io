@@ -24,6 +24,7 @@ async function updateCodeforcesTooltip() {
 }
 
 async function updateGithubTooltip() {
+  console.log('Working....');
   githubUsernameDiv.innerHTML = `Username: ${githubUsername}`;
   const res = await fetch(`https://api.github.com/users/${githubUsername}`);
   const data = await res.json();
@@ -32,6 +33,7 @@ async function updateGithubTooltip() {
 }
 
 async function updateGithubTooltip1() {
+  console.log('Working(Revno)....');
   githubUsernameDiv1.innerHTML = `Username: ${githubUsername1}`;
   const res = await fetch(`https://api.github.com/users/${githubUsername1}`);
   const data = await res.json();
@@ -41,4 +43,4 @@ async function updateGithubTooltip1() {
 
 updateCodeforcesTooltip();
 updateGithubTooltip();
-updateGithubTooltip1(); 
+updateGithubTooltip1();
