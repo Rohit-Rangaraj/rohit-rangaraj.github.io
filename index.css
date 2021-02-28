@@ -5,9 +5,14 @@ html,
   height: 100%;
   width: 100%;
   margin: 0;
-  background: #0f2027;
+  /* Orange */
+  background: #1a2a6c;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  /*Dark Blue*/
+  /* background: #0f2027;
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
 }
 
 /* .body {
