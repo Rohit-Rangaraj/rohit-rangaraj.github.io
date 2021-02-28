@@ -44,12 +44,13 @@ html,
 .name {
   margin-top: 1.5rem;
   font-size: 2rem;
+  color: #fff;
 }
 
 .occupation {
   margin-bottom: 1.5rem;
   font-size: 1.25rem;
-  color: #202020;
+  color: #fff;
 }
 
 .links {
