@@ -5,23 +5,10 @@ html,
   height: 100%;
   width: 100%;
   margin: 0;
-  /* Man of Steel */
-  background: #780206; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #061161,
-    #780206
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #061161,
-    #780206
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  /*Dark Blue*/
-  /* background: #0f2027;
+  background: #0f2027;
   background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027); */
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 }
 
 /* .body {
