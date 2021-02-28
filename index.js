@@ -1,17 +1,19 @@
-const codeforcesHandle = "Mukundan314";
-const githubUsername = "Mukundan314";
+const codeforcesHandle = 'Rohi21Coder';
+const githubUsername = 'Rohit-Rangaraj';
 
-const codeforcesHandleDiv = document.getElementById("cf-handle");
-const codeforcesRatingDiv = document.getElementById("cf-rating");
+const codeforcesHandleDiv = document.getElementById('cf-handle');
+const codeforcesRatingDiv = document.getElementById('cf-rating');
 
-const githubUsernameDiv = document.getElementById("gh-username");
-const githubRepositoriesDiv = document.getElementById("gh-repositories");
+const githubUsernameDiv = document.getElementById('gh-username');
+const githubRepositoriesDiv = document.getElementById('gh-repositories');
 
 async function updateCodeforcesTooltip() {
   codeforcesHandleDiv.innerHTML = `Handle: ${codeforcesHandle}`;
-  const res = await fetch(`https://codeforces.com/api/user.info?handles=${codeforcesHandle}`);
+  const res = await fetch(
+    `https://codeforces.com/api/user.info?handles=${codeforcesHandle}`
+  );
   const data = await res.json();
-  if (data.status === "OK") {
+  if (data.status === 'OK') {
     const { rating } = data.result[0];
     codeforcesRatingDiv.innerHTML = `Rating: ${rating}`;
   }
