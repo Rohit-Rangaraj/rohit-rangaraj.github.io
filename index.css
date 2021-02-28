@@ -5,13 +5,16 @@ html,
   height: 100%;
   width: 100%;
   margin: 0;
-}
-
-.body {
   background: #fc354c;
   background: -webkit-linear-gradient(to right, #0abfbc, #fc354c);
   background: linear-gradient(to right, #0abfbc, #fc354c);
 }
+
+/* .body {
+  background: #fc354c;
+  background: -webkit-linear-gradient(to right, #0abfbc, #fc354c);
+  background: linear-gradient(to right, #0abfbc, #fc354c);
+} */
 
 .main {
   display: flex;
