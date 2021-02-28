@@ -41,3 +41,4 @@ async function updateGithubTooltip1() {
 
 updateCodeforcesTooltip();
 updateGithubTooltip();
+updateGithubTooltip1;
